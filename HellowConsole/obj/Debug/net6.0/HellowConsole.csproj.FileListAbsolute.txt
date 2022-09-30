@@ -1,0 +1,15 @@
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\bin\Debug\net6.0\HellowConsole.exe
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\bin\Debug\net6.0\HellowConsole.deps.json
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\bin\Debug\net6.0\HellowConsole.runtimeconfig.json
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\bin\Debug\net6.0\HellowConsole.dll
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\bin\Debug\net6.0\HellowConsole.pdb
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\obj\Debug\net6.0\HellowConsole.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\obj\Debug\net6.0\HellowConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\obj\Debug\net6.0\HellowConsole.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\obj\Debug\net6.0\HellowConsole.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\obj\Debug\net6.0\HellowConsole.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\obj\Debug\net6.0\HellowConsole.dll
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\obj\Debug\net6.0\refint\HellowConsole.dll
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\obj\Debug\net6.0\HellowConsole.pdb
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\obj\Debug\net6.0\HellowConsole.genruntimeconfig.cache
+C:\Users\hp\OneDrive\Рабочий стол\Обучение\C#\HellowConsole\obj\Debug\net6.0\ref\HellowConsole.dll
