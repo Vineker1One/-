@@ -1,12 +1,22 @@
-﻿Console.Write("Введите имя пользователя: ");
-string username = Console.ReadLine();
+﻿// Задача: Как поприветствовать пользователя любимчика?
 
-if(username.ToLower() == "даша")
-{
-    Console.WriteLine("Ура, это же ДАША!");
-}
-else
-{
-    Console.Write("Привет, ");
-    Console.WriteLine(username);
-}
+// Начало
+// ● Ввести имя пользователя
+// ● ЕСЛИ имя пользователя совпадает с “Маша” то… 
+// поприветствовать по особенному
+// ● ИНАЧЕ поприветствовать по обычному
+// ● Конец
+
+
+// Console.Write("Введите имя пользователя: ");
+// string username = Console.ReadLine();
+
+// if(username.ToLower() == "даша")
+// {
+//     Console.WriteLine("Ура, это же ДАША!");
+// }
+// else
+// {
+//     Console.Write("Привет, ");
+//     Console.WriteLine(username);
+// }
