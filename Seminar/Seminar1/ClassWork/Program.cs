@@ -61,16 +61,16 @@
 // 82736 / 100 -> 827 % 100 -> 27
 // 5243 / 10 % 10 -> 2
 
-Console.Write("Input a three-digit number: ");
-int n = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a three-digit number: ");
+// int n = Convert.ToInt32(Console.ReadLine());
 
-if( n >= 100 && n < 1000)
-{
-    int lastdigit = n % 10;
-    Console.WriteLine("Last digit of " + n + " is " + lastdigit );
-    Console.WriteLine($"Last digit of {n} is {lastdigit}");
-}
-else
-{
-    Console.WriteLine("Uncorrect input!");
-}
+// if( n >= 100 && n < 1000)
+// {
+//     int lastdigit = n % 10;
+//     Console.WriteLine("Last digit of " + n + " is " + lastdigit );
+//     Console.WriteLine($"Last digit of {n} is {lastdigit}");
+// }
+// else
+// {
+//     Console.WriteLine("Uncorrect input!");
+// }
