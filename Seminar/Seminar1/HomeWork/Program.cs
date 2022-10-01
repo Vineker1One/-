@@ -27,3 +27,17 @@
 // if(num3 > max) max = num3;
 
 // Console.Write("max = " + max);
+
+
+// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли оно четным (делится ли оно на два без остатка)
+
+// Console.Write("Введите ваше число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if(num % 2 == 0)
+// {
+//     Console.WriteLine("Да");
+// }
+// else
+// {
+//     Console.WriteLine("Нет");
+// }
