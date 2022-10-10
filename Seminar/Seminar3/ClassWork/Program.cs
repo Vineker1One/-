@@ -45,18 +45,18 @@
 
 // Напишите программу, которая принимает на вход число (N) и выдаёт ряд квадратов чисел от 1 до N.
 
-void RowSquart (int N)
-{
-    int count = 1;
-    while (count <= N)
-    {
-        int row = Math.Pow(count, 2);
-        Console.Write(row + " ");
-        count++;
-    }
-}
-Console.Write("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-RowSquart(num);
+// void RowSquart (int N)
+// {
+//     int count = 1;
+//     while (count <= N)
+//     {
+//         double row = Math.Pow(count, 2);
+//         Console.Write(row + " ");
+//         count++;
+//     }
+// }
+// Console.Write("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// RowSquart(num);
 
 
