@@ -25,14 +25,18 @@
 //         result = ed;
 //     }
 //     else{
-//         Console.WriteLine("Число не трехзначное");
+//         return -1;
 //     }
 //     return result;
 // }
 // Console.Write("Введите трехзначное число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 // int secnum = SecondNum(number);
-// Console.WriteLine($"Второя цифра из числа {number} - {secnum}");
+// if (secnum == -1) Console.WriteLine("Число не трехзначное");
+// else {
+//     Console.WriteLine($"Второя цифра из числа {number} - {secnum}");
+// }
+
 
 // Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
