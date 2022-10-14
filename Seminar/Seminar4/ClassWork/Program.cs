@@ -59,34 +59,47 @@
 // Написать программу, которая выводит массив элементов, заполненный 0 и 1 в случайном порядке
 
 
-int[] CreateRandomArray(int size, int minValue, int maxValue)
-{
-    int[] array = new int[size];
+// int[] CreateRandomArray(int size, int minValue, int maxValue)
+// {
+//     int[] array = new int[size];
 
-    for (int i = 0; i < size; i++)
-    {
-        array[i] = new Random().Next(minValue, maxValue + 1);  
-    }
-    return array;
-}
+//     for (int i = 0; i < size; i++)
+//     {
+//         array[i] = new Random().Next(minValue, maxValue + 1);  
+//     }
+//     return array;
+// }
 
-void ShowArray(int[] array)
-{
-    for(int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
+// void ShowArray(int[] array)
+// {
+//     for(int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write(array[i] + " ");
+//     }
+//     Console.WriteLine();
+// }
 
-Console.Write("Input number of elements: ");
-int size = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input min possible value: ");
-int min = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input max possible value: ");
-int max = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input number of elements: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input min possible value: ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input max possible value: ");
+// int max = Convert.ToInt32(Console.ReadLine());
 
-int[] myArray = CreateRandomArray(size, min, max);
-ShowArray(myArray);
+// int[] myArray = CreateRandomArray(size, min, max);
+// ShowArray(myArray);
 
-//Сгенирировать метод который будет запрашивать массив у пользователя
+// //Сгенирировать метод который будет запрашивать массив у пользователя
+
+// // make array by user
+// int[] NewArray(int size)
+// {
+//         int[] array = new int[size];//create new array
+//         for(int i = 0; i < size; i++)//adding circs of "for"
+//             { 
+//             Console.WriteLine("Add next element."); //ask user for the next array's element
+//             array[i] = Convert.ToInt32(Console.ReadLine());//adding element to array
+//             }
+//             Console.WriteLine("Well done!");
+//         return array;
+// }
