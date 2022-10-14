@@ -65,7 +65,7 @@ int[] CreateRandomArray(int size, int minValue, int maxValue)
 
     for (int i = 0; i < size; i++)
     {
-        array[i] = Console.Readline();
+        array[i] = new Random().Next(minValue, maxValue + 1);  
     }
     return array;
 }
@@ -90,10 +90,3 @@ int[] myArray = CreateRandomArray(size, min, max);
 ShowArray(myArray);
 
 //Сгенирировать метод который будет запрашивать массив у пользователя
-
-
-
-
-
-
-
