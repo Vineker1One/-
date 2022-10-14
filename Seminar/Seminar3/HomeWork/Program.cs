@@ -1,18 +1,18 @@
 ﻿//Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
-// void Palindrom (string number)
-// {
-//     if (number[0] == number[4] && number[1] == number[3]) Console.WriteLine ($"Число {number} является палиндромом");
-//     else Console.WriteLine ($"Число {number} не является палиндромом");
-// }
+void Palindrom (string number)
+{
+    if (number[0] == number[4] && number[1] == number[3]) Console.WriteLine ($"Число {number} является палиндромом");
+    else Console.WriteLine ($"Число {number} не является палиндромом");
+}
 
-// Console.Write("Введите пятизначное число: ");
-// string? num = Convert.ToString(Console.ReadLine());
-// if (num.Length == 5 )
-// {
-//     Palindrom(num);
-// }
-// else Console.WriteLine ("Число не пятизначное");
+Console.Write("Введите пятизначное число: ");
+string? num = Convert.ToString(Console.ReadLine());
+if (num.Length == 5 )
+{
+    Palindrom(num);
+}
+else Console.WriteLine ("Число не пятизначное");
 
 
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
@@ -44,16 +44,16 @@
 
 //Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
-void RowSquart (int N)
-{
-    int count = 1;
-    while (count <= N)
-    {
-        double row = Math.Pow(count, 3);
-        Console.Write(row + " ");
-        count++;
-    }
-}
-Console.Write("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-RowSquart(num);
+// void RowSquart (int N)
+// {
+//     int count = 1;
+//     while (count <= N)
+//     {
+//         double row = Math.Pow(count, 3);
+//         Console.Write(row + " ");
+//         count++;
+//     }
+// }
+// Console.Write("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// RowSquart(num);
