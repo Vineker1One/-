@@ -1,10 +1,14 @@
-﻿//Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+﻿// Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 
 // double WhileMulti (double numA, double numB)
 // {
+//     double count = numA;
+//     for (int i = 1; i < numB; i++)
+//     {
+//         count = count * numA;
+//     }
     
-//     double result = Math.Pow(numA, numB);
-//     return result;
+//     return count;
 // }
 // Console.Write("Введите первое число: ");
 // double a = Convert.ToDouble(Console.ReadLine());
@@ -35,10 +39,29 @@
 
 // Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
 
-// int[] array (int size)
-// {
-//     int[] array = new int[size];
-//     {
-        
-//     }
-// }
+int[] CreateArray (int m)
+{
+
+    int[] array = new int[m];
+
+    for (int i = 0; i < m; i++)
+    {
+        Console.Write($"Введите {i + 1} элемент массива: ");
+        array[i] = Convert.ToInt32(Console.ReadLine());
+    }
+
+    return array;
+}
+
+void ShowArray(int[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+        Console.Write(array[i] + " ");
+
+    Console.WriteLine();
+}
+
+Console.Write("Введите количество элементов массива: ");
+int m = Convert.ToInt32(Console.ReadLine());
+int[] myArray = CreateArray(m);
+ShowArray(myArray);

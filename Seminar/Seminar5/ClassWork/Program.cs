@@ -21,18 +21,18 @@ int[] CreateRandomArray(int size, int minVal, int maxVal)
   return array;
 }
 
-int SumOfNegatives (int[] array)
-{
-    int sum = 0;
+// int SumOfNegatives (int[] array)
+// {
+//     int sum = 0;
 
-    for (int i = 0; i < array.Length; i++)
-    {
-        if( array [i] < 0)
-            sum += array [i];
-    }
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if( array [i] < 0)
+//             sum += array [i];
+//     }
 
-    return sum;
-}
+//     return sum;
+// }
 
 // Console.Write("Input a number of elements: ");
 // int size = Convert.ToInt32(Console.ReadLine());
