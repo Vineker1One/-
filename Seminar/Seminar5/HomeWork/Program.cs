@@ -63,28 +63,48 @@ void ShowArray(int[] array)
 
 // Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
+double[] CreateRandomArrayD(int size, int minVal, int maxVal) 
+{
+    double[] array = new double[size];
+  
+    for (int i = 0; i < array.Length; i++)
+  {
+    array[i] = new Random().Next(minVal, maxVal + 1);
+  }
 
-// int Subtraction (int[] array)
-// {
-//     int min = array[0];
-//     int max = array[0];
-//     int subtraction;
-//     for (int i = 0; i < array.Length; i++)
-//     {
-//         if (array[i] > max) max = array[i];
-//         if (array[i] < min) min = array[i];
-//     }
-//     subtraction = max - min;
-//     return subtraction;
-// }
+    return array;
+}
 
-// Console.Write("Введите размер массива: ");
-// int size = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Введите минимальное значение массива: ");
-// int min = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Введите максимальное значение массива: ");
-// int max = Convert.ToInt32(Console.ReadLine());
-// int[] myArray = CreateRandomArray (size, min, max);
-// ShowArray(myArray);
-// int result = Subtraction (myArray);
-// Console.WriteLine("Разница между максимальным элементом массива и минимальным равна: " + result);
+void ShowArrayD(double[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+        Console.Write(array[i] + " ");
+
+    Console.WriteLine();
+}
+
+
+double Subtraction (double[] array)
+{
+    double min = array[0];
+    double max = array[0];
+    double subtraction;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] > max) max = array[i];
+        if (array[i] < min) min = array[i];
+    }
+    subtraction = max - min;
+    return subtraction;
+}
+
+Console.Write("Введите размер массива: ");
+int size = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите минимальное значение массива: ");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите максимальное значение массива: ");
+int max = Convert.ToInt32(Console.ReadLine());
+double[] myArray = CreateRandomArrayD (size, min, max);
+ShowArrayD(myArray);
+double result = Subtraction (myArray);
+Console.WriteLine("Разница между максимальным элементом массива и минимальным равна: " + result);
