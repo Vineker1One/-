@@ -1,24 +1,24 @@
 ﻿// Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 
-int[] CreateRandomArray(int size, int minVal, int maxVal) 
-{
-    int[] array = new int[size];
+// int[] CreateRandomArray(int size, int minVal, int maxVal) 
+// {
+//     int[] array = new int[size];
   
-    for (int i = 0; i < array.Length; i++)
-  {
-    array[i] = new Random().Next(minVal, maxVal + 1);
-  }
+//     for (int i = 0; i < array.Length; i++)
+//   {
+//     array[i] = new Random().Next(minVal, maxVal + 1);
+//   }
 
-  return array;
-}
+//   return array;
+// }
 
-void ShowArray(int[] array)
-{
-    for(int i = 0; i < array.Length; i++)
-        Console.Write(array[i] + " ");
+// void ShowArray(int[] array)
+// {
+//     for(int i = 0; i < array.Length; i++)
+//         Console.Write(array[i] + " ");
 
-    Console.WriteLine();
-}
+//     Console.WriteLine();
+// }
 
 
 // int ShowEvenNumber (int[] array)
