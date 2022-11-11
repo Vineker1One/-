@@ -77,7 +77,7 @@ void Show2dArray(int[,] array)
 // }
 
 // double [,] myArray = Double2dArray();
-// Show2dArray(myArray);
+// Show2dArrayDouble(myArray);
 
 
 // Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
